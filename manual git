@@ -14,4 +14,5 @@ git fetch
  git rebase origin/master
 git push
 git push --set-upstream origin master(esto creo que en linux)
+git remote rm origin
 
