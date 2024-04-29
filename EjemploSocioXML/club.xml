@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<club>
+	<nombre>Diogenes</nombre>
+	<socios>
+		<socio id="23">
+			<nombre>Martin Fisher</nombre>
+			<direccion>43 Bass St</direccion>
+			<alta>12/12/2020</alta>
+		</socio>
+		<socio id="43">
+			<nombre>Lola Ruiz</nombre>
+			<direccion>Calle ancha 32</direccion>
+			<alta>11/11/2011</alta>
+		</socio>
+</socios>
+</club>
