@@ -30,6 +30,8 @@ public class ProgSosio {
         tabla[0]=s1;
         tabla[1]=s2;
         
+ 
+        
         ObjectInputStream inputStream=null;
          ObjectOutputStream o=null;
          
@@ -47,8 +49,10 @@ public class ProgSosio {
  try {
     inputStream = new ObjectInputStream(new FileInputStream("socio.dat"));
   
-  
-     System.out.println(Arrays.toString(tabla));
+     while (true) {         
+     System.out.println(Arrays.toString(tabla));    
+     }
+     
     
 } catch (IOException e) {
     System.err.println("Error al leer los objetos del archivo binario: " + e.getMessage());
