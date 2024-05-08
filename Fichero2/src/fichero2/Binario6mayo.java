@@ -57,9 +57,10 @@ public class Binario6mayo {
                 }
         
          try {
-                         inputStream = new ObjectInputStream(new FileInputStream("datos.dat"));
+                     //esto mejor ponerlo fuera para que no se sobscriba
+                      inputStream = new ObjectInputStream(new FileInputStream("datos.dat"));
                       outputStreamPar = new ObjectOutputStream(new FileOutputStream("par.dat"));
-                         outputStreamImPar = new ObjectOutputStream(new FileOutputStream("impar.dat"));
+                      outputStreamImPar = new ObjectOutputStream(new FileOutputStream("impar.dat"));
                         System.out.println("numeros :");
                       while(true){
                           
