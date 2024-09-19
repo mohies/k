@@ -5,7 +5,7 @@ git config --global user.name "mohies"
   698  git status
   699  git add.
   700  git add .
-  701  git commit -m "primer"
+  701  git commit -m "primer" //Esto sigue en local todavia
   702  git remote add origin https://github.com/mohies/k.git
   703  git push -u origin master
 
