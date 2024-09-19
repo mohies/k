@@ -16,4 +16,9 @@ git push
 git push --set-upstream origin master(esto creo que en linux)
 git remote rm origin
 
+
+SSH
 para crear ssh->    ssh-keygen -t ed25519 -C "mohcen.benizza.bouzid.al@iespoligonosur.org" es lo mejor
+
+una vez ecriptado arriba a hora debemos coger la clave publica 
+cat<ruta de la clave>.pub
