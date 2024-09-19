@@ -9,6 +9,7 @@ git config --global user.name "mohies"
   702  git remote add origin https://github.com/mohies/k.git
   703  git push -u origin master
 
+  git pull repositorio remoto el archivo modificado que lo que tenga en remoto a mi ordenador y por esto hago el git pull.
 si da error
 git fetch
  git rebase origin/master
